@@ -1,0 +1,137 @@
+body {
+    
+    background-color: #222;
+    font-size: 18px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.content {
+    
+    border: 1px solid #aaa;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 1em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.input_form {
+    
+    display: block;
+    border: 1px solid #08a;
+    padding: .5em 1em;
+    border-radius: 5px;
+    background-color: #e0e0ef;
+    margin: 1em 0;
+
+}
+
+.input_form * {
+    display: block;
+    margin: 0 0 .5em 0;
+}
+
+.input_form input[type='text'], input[type='password'], input[type='email'], textarea {
+    
+    width: 100%;
+    font-size: 1.25em;
+}
+
+.input_form label {
+    
+    font-size: 1.25em;
+    font-weight: bold;
+    
+}
+
+.input_form input[type="submit"] {
+    
+    font-size: 1.25em;
+}
+
+.code_block {
+    
+    border: 2px solid #558;
+    background-color: #E3E4FA;
+    font-size: 1em;
+    padding: 5px 5px 20px 5px;
+    overflow: auto;
+    display:block;
+}
+
+.sub_block {
+    
+    margin: 1em;
+    background-color: #F3F4FF;
+    padding: 5px 10px 20px 10px;
+    
+}
+
+.sub_block > * {
+    
+    margin: .25em 10px .25em 40px;
+}
+
+.sub_block h1,
+.sub_block h2,
+.sub_block h3,
+.sub_block h4,
+.sub_block h5,
+.sub_block h6 {
+    margin-left: 20px;
+    
+}
+
+.sub_block > p {
+    
+    font-style: italic;
+    font-weight: bold;
+}
+
+.time_stamps {
+    
+    font-size: .75em;
+    font-style: italic;
+    
+}
+
+.owners_select {
+    background-color: #BCC6CC;    
+
+}
+
+.error_msg {
+    display: block;
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    padding: 3px;
+    font-style: italic;
+
+}
+
+.error_msg > * {
+    
+    margin: 2px 0;
+}
+
+.sub_block input[type='text'], input[type='password'], input[type='email'], textarea {
+    font-size: 1.25em;
+}
+
+.sub_block label {
+    
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-bottom: .5em;
+    
+}
+
+.sub_block input[type="submit"],
+button {
+    
+    font-size: 1.25em;
+    padding: .5em 1em;
+}
+
